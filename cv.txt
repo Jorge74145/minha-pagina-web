@@ -1,0 +1,65 @@
+NOME APELIDO
+Estudante de [Curso/Área]
+
+────────────────────────────────
+
+PERFIL
+
+Pequena apresentação profissional/académica.
+2–4 linhas, objetiva e relacionada com a área.
+
+────────────────────────────────
+
+FORMAÇÃO ACADÉMICA
+
+2024 – Presente
+Nome do Curso
+Nome da Escola/Universidade
+
+2021 – 2024
+[Curso anterior]
+[Instituição]
+
+────────────────────────────────
+
+EXPERIÊNCIA
+
+2025 – Presente
+Nome da empresa / organização
+Cargo / função
+
+• Responsabilidade ou realização relevante
+• Responsabilidade ou realização relevante
+
+────────────────────────────────
+
+COMPETÊNCIAS
+
+• HTML / CSS
+• JavaScript
+• Python
+• Trabalho em equipa
+• Comunicação
+• [outras competências verdadeiras]
+
+────────────────────────────────
+
+PROJETOS
+
+Nome do projeto
+Breve descrição e tecnologias utilizadas.
+
+────────────────────────────────
+
+IDIOMAS
+
+Português — Nativo
+Inglês — [nível verdadeiro]
+
+────────────────────────────────
+
+CONTACTOS
+
+Email: [email]
+LinkedIn: [link]
+GitHub: [link]
