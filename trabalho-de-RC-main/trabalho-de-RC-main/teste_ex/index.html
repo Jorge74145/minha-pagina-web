@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Rodrigo | programador amador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<header>
+
+    <h1>Rodrigo</h1>
+    <p>Estudante de TPSI</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#competencias">Competências</a>
+    <a href="#formacao">Formação</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+
+    <section id="sobre">
+        <h2>Perfil Profissional</h2>
+
+        <p>
+            Estudante 
+        </p>
+
+        <div class="cv-buttons">
+            <button onclick="abrirCV()">Ver CV</button>
+
+            <a class="btn btn-download"
+               href="cv.pdf"
+               download>
+                Descarregar CV em PDF
+            </a>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+
+        <div class="experiencia">
+            <h3>estudante</h3>
+            <p class="empresa">
+                escola aeg1 /2022:2026/
+            </p>
+
+            <ul>
+                <li>Utilização de AutoCAD, Revit e MS Project para desenvolvimento e acompanhamento de projetos.</li>
+                <li>Planeamento e execução de obras residenciais de médio porte.</li>
+                <li>Otimização logística e gestão de fornecedores.</li>
+            </ul>
+        </div>
+
+        <div class="experiencia">
+            <h3>Estudante</h3>
+            <p class="empresa">
+                Escola AEG1 / 2022 – 2026
+            </p>
+
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="experiencia">
+            <h3>Assistente Técnico de Engenharia</h3>
+            <p class="empresa">
+                Escola AEG1 / 2022 – 2026
+            </p>
+
+            <ul>
+                <li>Apoio na implementação de processos de segurança do trabalho.</li>
+                <li>Levantamento quantitativo de materiais.</li>
+                <li>Elaboração de orçamentos.</li>
+                <li>Acompanhamento do cronograma das obras.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="competencias">
+        <h2>Competências</h2>
+
+        <div class="skills">
+            <div class="skill">Trabalho em equipa</div>
+            <div class="skill">Elaboração de orçamentos</div>
+            <div class="skill">Controlo de qualidade</div>
+            <div class="skill">Comunicação</div>
+            <div class="skill">Interpretação de projetos</div>
+            <div class="skill">Planeamento de obras</div>
+            <div class="skill">Gestão de fornecedores</div>
+            <div class="skill">Segurança no trabalho</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Programas</h2>
+
+        <div class="skills">
+            <div class="skill"><strong>Inglês</strong><br>Avançado</div>
+            <div class="skill"><strong>Português</strong><br>Intermédio</div>
+            <div class="skill"><strong>Matemática</strong><br>Intermédio</div>
+            <div class="skill"><strong>ProESG</strong><br>Avançado</div>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Académica</h2>
+
+        <div class="experiencia">
+            <h3>Pós-graduação em Gerenciamento de Projetos de Engenharia</h3>
+            <p>
+                Fundação Getúlio Vargas (FGV), São Paulo |
+                20XX – 20XX
+            </p>
+        </div>
+
+        <div class="experiencia">
+            <h3>Engenharia Civil</h3>
+            <p>
+                escola aeg1 /
+                20XX – 20XX
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Idiomas</h2>
+
+        <ul>
+            <li>Português — Nativo</li>
+            <li>Inglês — Intermédio (B2)</li>
+            <li>Espanhol — Básico (A2)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Interesses</h2>
+
+        <ul>
+            <li>Tecnologia e programação</li>
+            <li>Ler livros e ouvir música</li>
+            <li>Viagem e cultura</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <div class="contactos">
+
+            <div class="contacto">
+                📞 <strong>Telefone</strong><br>
+                06 06 06 06 06
+            </div>
+
+            <div class="contacto">
+                ✉️ <strong>Email</strong><br>
+                a115749@aeg1.pt
+            </div>
+
+            <div class="contacto">
+                📍 <strong>Localização</strong><br>
+                Porto, portugal
+            </div>
+
+            <div class="contacto">
+                💼 <strong>LinkedIn</strong><br>
+                linkedin.com/joao
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 João da Silva — Engenheiro Civil</p>
+</footer>
+
+
+<!-- MODAL DO CV -->
+
+<div id="cvModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="fecharCV()">&times;</span>
+
+        <div class="cv-header">
+            <h2>João da Silva</h2>
+            <p>Engenheiro Civil</p>
+        </div>
+
+        <div class="cv-section">
+            <h3>Perfil Profissional</h3>
+
+            <p>
+                Engenheiro Civil com sólida formação técnica e experiência
+                em projetos de construção civil e infraestrutura urbana.
+                Especializado no planeamento, execução e supervisão de obras.
+            </p>
+        </div>
+
+        <div class="cv-section">
+            <h3>Experiência Profissional</h3>
+
+            <h4>Engenheiro Civil Pleno</h4>
+            <p><strong>Construtora Alfa</strong> — São Paulo | 20XX – 20XX</p>
+
+            <ul>
+                <li>Desenvolvimento e acompanhamento de projetos.</li>
+                <li>Planeamento e execução de obras residenciais.</li>
+                <li>Gestão de fornecedores e logística.</li>
+            </ul>
+
+            <br>
+
+            <h4>Engenheiro Civil</h4>
+            <p><strong>Construtora Beta</strong> — São Paulo | 20XX – 20XX</p>
+
+            <ul>
+                <li>Acompanhamento da execução de obras.</li>
+                <li>Coordenação de equipas.</li>
+                <li>Controlo do cronograma físico-financeiro.</li>
+            </ul>
+
+            <br>
+
+            <h4>Assistente Técnico de Engenharia</h4>
+            <p><strong>Construtora Vale Real</strong> — Campinas | 20XX – 20XX</p>
+
+            <ul>
+                <li>Apoio técnico às equipas de engenharia.</li>
+                <li>Levantamento de materiais.</li>
+                <li>Elaboração de orçamentos.</li>
+            </ul>
+        </div>
+
+        <div class="cv-section">
+            <h3>Formação Académica</h3>
+
+            <p>
+                <strong>Pós-graduação em Gerenciamento de Projetos de Engenharia</strong><br>
+                Fundação Getúlio Vargas (FGV)
+            </p>
+
+            <br>
+
+            <p>
+                <strong>Engenharia Civil</strong><br>
+                Universidade de São Paulo (USP)
+            </p>
+        </div>
+
+        <div class="cv-section">
+            <h3>Competências</h3>
+
+            <p>
+                Gestão de equipas · Orçamentos · Controlo de qualidade ·
+                Planeamento de obras · AutoCAD · Revit · MS Project · SketchUp
+            </p>
+        </div>
+
+        <div class="cv-section">
+            <h3>Idiomas</h3>
+
+            <p>
+                Português — Nativo<br>
+                Inglês — Intermédio (B2)<br>
+                Espanhol — Básico (A2)
+            </p>
+        </div>
+
+        <div class="cv-buttons">
+            <a href="cv.pdf" download class="btn btn-download">
+                Descarregar CV PDF
+            </a>
+
+            <button onclick="window.print()">
+                Imprimir / Guardar como PDF
+            </button>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+
+    function abrirCV() {
+        document.getElementById("cvModal").style.display = "block";
+        document.body.style.overflow = "hidden";
+    }
+
+    function fecharCV() {
+        document.getElementById("cvModal").style.display = "none";
+        document.body.style.overflow = "auto";
+    }
+
+    window.onclick = function(event) {
+
+        const modal = document.getElementById("cvModal");
+
+        if (event.target === modal) {
+            fecharCV();
+        }
+
+    }
+
+</script>
+
+</body>
+</html>
